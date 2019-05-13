@@ -1,0 +1,43 @@
+body { font: 12px Arial;}
+
+path {
+    stroke-width: 2;
+}
+
+.legend {
+    border: 1px black;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.mean {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+  }
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+circle:hover {
+    stroke-width: 2;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 300px;
+    height: 140px;
+    padding: 10px;
+    font: 12px sans-serif;
+    background: white;
+    border:0px;
+    border-radius: 8px;
+    pointer-events: none;
+    box-shadow: 5px 5px 11px 1px #636363;
+}
